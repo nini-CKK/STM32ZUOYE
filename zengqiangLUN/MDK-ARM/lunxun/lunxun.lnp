@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"lunxun\startup_stm32f103xb.o"
+"lunxun\main.o"
+"lunxun\gpio.o"
+"lunxun\usart.o"
+"lunxun\stm32f1xx_it.o"
+"lunxun\stm32f1xx_hal_msp.o"
+"lunxun\stm32f1xx_hal_gpio_ex.o"
+"lunxun\stm32f1xx_hal_tim.o"
+"lunxun\stm32f1xx_hal_tim_ex.o"
+"lunxun\stm32f1xx_hal_uart.o"
+"lunxun\stm32f1xx_hal.o"
+"lunxun\stm32f1xx_hal_rcc.o"
+"lunxun\stm32f1xx_hal_rcc_ex.o"
+"lunxun\stm32f1xx_hal_gpio.o"
+"lunxun\stm32f1xx_hal_dma.o"
+"lunxun\stm32f1xx_hal_cortex.o"
+"lunxun\stm32f1xx_hal_pwr.o"
+"lunxun\stm32f1xx_hal_flash.o"
+"lunxun\stm32f1xx_hal_flash_ex.o"
+"lunxun\stm32f1xx_hal_exti.o"
+"lunxun\system_stm32f1xx.o"
+--strict --scatter "lunxun\lunxun.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "lunxun.map" -o lunxun\lunxun.axf
