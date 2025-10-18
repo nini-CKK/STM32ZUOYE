@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"cuankouzhongduan\startup_stm32f103xb.o"
+"cuankouzhongduan\main.o"
+"cuankouzhongduan\gpio.o"
+"cuankouzhongduan\usart.o"
+"cuankouzhongduan\stm32f1xx_it.o"
+"cuankouzhongduan\stm32f1xx_hal_msp.o"
+"cuankouzhongduan\stm32f1xx_hal_gpio_ex.o"
+"cuankouzhongduan\stm32f1xx_hal_tim.o"
+"cuankouzhongduan\stm32f1xx_hal_tim_ex.o"
+"cuankouzhongduan\stm32f1xx_hal_uart.o"
+"cuankouzhongduan\stm32f1xx_hal.o"
+"cuankouzhongduan\stm32f1xx_hal_rcc.o"
+"cuankouzhongduan\stm32f1xx_hal_rcc_ex.o"
+"cuankouzhongduan\stm32f1xx_hal_gpio.o"
+"cuankouzhongduan\stm32f1xx_hal_dma.o"
+"cuankouzhongduan\stm32f1xx_hal_cortex.o"
+"cuankouzhongduan\stm32f1xx_hal_pwr.o"
+"cuankouzhongduan\stm32f1xx_hal_flash.o"
+"cuankouzhongduan\stm32f1xx_hal_flash_ex.o"
+"cuankouzhongduan\stm32f1xx_hal_exti.o"
+"cuankouzhongduan\system_stm32f1xx.o"
+--strict --scatter "CUANKOUzhongduan\CUANKOUzhongduan.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "CUANKOUzhongduan.map" -o CUANKOUzhongduan\CUANKOUzhongduan.axf
