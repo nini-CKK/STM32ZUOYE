@@ -1,0 +1,10 @@
+oledhal2\mui_u8g2.o: csrc\mui_u8g2.c
+oledhal2\mui_u8g2.o: csrc\mui.h
+oledhal2\mui_u8g2.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+oledhal2\mui_u8g2.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+oledhal2\mui_u8g2.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+oledhal2\mui_u8g2.o: csrc\u8g2.h
+oledhal2\mui_u8g2.o: csrc\u8x8.h
+oledhal2\mui_u8g2.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+oledhal2\mui_u8g2.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+oledhal2\mui_u8g2.o: csrc\mui_u8g2.h
