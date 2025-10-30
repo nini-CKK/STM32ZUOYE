@@ -1,0 +1,15 @@
+ucos-iiihal\os_time.o: D:\BaiduNetdiskDownload\Software\UCOSIII\uCOS-III\Source\os_time.c
+ucos-iiihal\os_time.o: ../UCOSIII/uCOS-III/Source/os.h
+ucos-iiihal\os_time.o: ../Core/Src/OS/os_cfg.h
+ucos-iiihal\os_time.o: ../UCOSIII/uC-CPU/ARM-Cortex-M3/RealView/cpu.h
+ucos-iiihal\os_time.o: ../UCOSIII/uC-CPU/cpu_def.h
+ucos-iiihal\os_time.o: ../Core/Src/OS/cpu_cfg.h
+ucos-iiihal\os_time.o: ../UCOSIII/uC-CPU/cpu_core.h
+ucos-iiihal\os_time.o: ../UCOSIII/uC-LIB/lib_def.h
+ucos-iiihal\os_time.o: ../UCOSIII/uC-LIB/lib_mem.h
+ucos-iiihal\os_time.o: ../UCOSIII/uC-CPU/cpu_core.h
+ucos-iiihal\os_time.o: ../Core/Src/OS/lib_cfg.h
+ucos-iiihal\os_time.o: ../UCOSIII/uC-LIB/lib_str.h
+ucos-iiihal\os_time.o: ../UCOSIII/uC-LIB/lib_ascii.h
+ucos-iiihal\os_time.o: ../UCOSIII/uCOS-III/Source/os_type.h
+ucos-iiihal\os_time.o: ../UCOSIII/uCOS-III/Ports/ARM-Cortex-M3/Generic/RealView/os_cpu.h

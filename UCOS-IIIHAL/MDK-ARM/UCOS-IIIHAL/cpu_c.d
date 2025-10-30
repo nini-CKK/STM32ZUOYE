@@ -1,0 +1,11 @@
+ucos-iiihal\cpu_c.o: D:\BaiduNetdiskDownload\Software\UCOSIII\uC-CPU\ARM-Cortex-M3\RealView\cpu_c.c
+ucos-iiihal\cpu_c.o: ../UCOSIII/uC-CPU/ARM-Cortex-M3/RealView/cpu.h
+ucos-iiihal\cpu_c.o: ../UCOSIII/uC-CPU/cpu_def.h
+ucos-iiihal\cpu_c.o: ../Core/Src/OS/cpu_cfg.h
+ucos-iiihal\cpu_c.o: ../UCOSIII/uC-CPU/cpu_core.h
+ucos-iiihal\cpu_c.o: ../UCOSIII/uC-LIB/lib_def.h
+ucos-iiihal\cpu_c.o: ../UCOSIII/uC-LIB/lib_mem.h
+ucos-iiihal\cpu_c.o: ../UCOSIII/uC-CPU/cpu_core.h
+ucos-iiihal\cpu_c.o: ../Core/Src/OS/lib_cfg.h
+ucos-iiihal\cpu_c.o: ../UCOSIII/uC-LIB/lib_str.h
+ucos-iiihal\cpu_c.o: ../UCOSIII/uC-LIB/lib_ascii.h
