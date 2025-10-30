@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"zengqiang\startup_stm32f103xb.o"
+"zengqiang\main.o"
+"zengqiang\gpio.o"
+"zengqiang\usart.o"
+"zengqiang\stm32f1xx_it.o"
+"zengqiang\stm32f1xx_hal_msp.o"
+"zengqiang\stm32f1xx_hal_gpio_ex.o"
+"zengqiang\stm32f1xx_hal_tim.o"
+"zengqiang\stm32f1xx_hal_tim_ex.o"
+"zengqiang\stm32f1xx_hal_uart.o"
+"zengqiang\stm32f1xx_hal.o"
+"zengqiang\stm32f1xx_hal_rcc.o"
+"zengqiang\stm32f1xx_hal_rcc_ex.o"
+"zengqiang\stm32f1xx_hal_gpio.o"
+"zengqiang\stm32f1xx_hal_dma.o"
+"zengqiang\stm32f1xx_hal_cortex.o"
+"zengqiang\stm32f1xx_hal_pwr.o"
+"zengqiang\stm32f1xx_hal_flash.o"
+"zengqiang\stm32f1xx_hal_flash_ex.o"
+"zengqiang\stm32f1xx_hal_exti.o"
+"zengqiang\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "zengqiang\zengqiang.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "zengqiang.map" -o zengqiang\zengqiang.axf
